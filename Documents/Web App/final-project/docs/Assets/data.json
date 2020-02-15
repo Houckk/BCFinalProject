@@ -1,1 +1,26 @@
-a
+{
+    "meta" : {
+        "title" : "NEATNIK"
+    },
+    "main" : {
+        "title" : "NEATNIK",
+        "nav" : [
+            {"name" : "Journals",
+            "navLink" : ""},
+            {"name" : "Templates",
+            "navLink" : ""}
+        ],
+        "logoLink" : "",
+        "headerNav" : {
+            "singIn" : "Sign In",
+            "email" : "<i class='far fa-envelope'></i>",
+            "cart-logo" : "<i class='fas fa-shopping-cart'></i>"
+        }
+        
+
+    },
+    "images" : [
+
+    ]
+
+}
