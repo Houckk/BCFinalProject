@@ -1,3 +1,10 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
 .navItem{
     list-style-type : none;
     display: block;
@@ -9,14 +16,16 @@
 #navBarItems{
     display : flex; 
     position : fixed;
-    top : 10%;
+    top : 6%;
     left: 0;
     justify-content : center;
+    align-items: center;
     list-style-type : none;
     width : 100%;
-    margin: 0%;
     margin-top :0;
     margin-left : 0;
+    padding-left: 0%;
+    padding: 15px;
 }
 
 a{
@@ -27,15 +36,31 @@ a{
     display : flex; 
     position : fixed;
     top : 0%;
-    left: 0;
+    left: 0%;
     justify-content: right;
+    align-self: auto;
     list-style-type : none;
     width : 100%;
-    margin: 0%;
     margin-top :0;
     margin-left : 0;
+    background-color: white;
+    padding-top: 15px;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+    padding-bottom: 15px;
 }
 
-.headerNavItem{
-    padding : 10px;
+.headerNavItem a{
+    padding : 15px;
+}
+
+#title{
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+    padding-left: 0%;
+    margin: 0%;
+    left: 0%;
+    top: 0%;
+    font-size: 50px;
 }
