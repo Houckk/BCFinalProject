@@ -5,19 +5,30 @@
     "main" : {
         "title" : "NEATNIK",
         "nav" : [
-            {"name" : "Journals",
-            "navLink" : ""},
-            {"name" : "Templates",
-            "navLink" : ""}
+            {
+                "name" : "Journals",
+                "link" : ""
+            },
+            {
+                "name" : "Templates",
+                "link" : "" 
+            }
         ],
         "logoLink" : "",
-        "headerNav" : {
-            "singIn" : "Sign In",
-            "email" : "<i class='far fa-envelope'></i>",
-            "cart-logo" : "<i class='fas fa-shopping-cart'></i>"
-        }
-        
-
+        "headerNav" : [
+            {
+                "display" : "Sign In",
+                "link" : ""
+            },
+            {
+                "display" : "<i class='far fa-envelope'></i>",
+                "link" : "" 
+            },
+            {
+                "display" : "<i class='fas fa-shopping-cart'></i>",
+                "link" : ""
+            }
+        ]
     },
     "images" : [
 
