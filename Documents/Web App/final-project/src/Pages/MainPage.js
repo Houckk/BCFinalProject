@@ -9,5 +9,4 @@ export function MainPage(data){
     ${headerNav(data.main.headerNav)}
     ${Nav(data.main.nav)}
     ${Title(data)}
-    ${Flipbook(data)}
     `}

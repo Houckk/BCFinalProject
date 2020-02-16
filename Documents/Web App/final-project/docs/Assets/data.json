@@ -10,7 +10,7 @@
                 "link" : ""
             },
             {
-                "name" : "<i class='fas fa-shopping-car'></i>",
+                "name" : "Templates",
                 "link" : "" 
             }
         ],
@@ -21,11 +21,11 @@
                 "link" : ""
             },
             {
-                "display" : "<i class='far fa-envelope></i>",
+                "display" : "<i class='far fa-envelope'></i>",
                 "link" : "" 
             },
             {
-                "display" : "<i class='fas fa-shopping-car'></i>",
+                "display" : "<i class='fas fa-shopping-cart'></i>",
                 "link" : ""
             }
         ]
